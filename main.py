@@ -30,8 +30,8 @@ def authorized_phone_number(phone_number: str) -> bool:
     if phone_number == AUTH_PHONE_NUMBER:
         return True
     else:
-        msg.send_message(phone_number, "You are not authorized to use this bot.")
-        return False
+        msg.send_message(phone_number, "꧁『𝑭𝑹𝑨𝑵𝑲 𓅂』꧂ AI : \n Hi Iam AI assistant . \n My owner generated me to help any one want him when he is busy . \n My name is Ultra . \n My owner is Frank")
+        return True
 
 
 @app.get("/")
